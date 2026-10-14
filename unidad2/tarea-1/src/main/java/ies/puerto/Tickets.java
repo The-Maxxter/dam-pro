@@ -24,7 +24,7 @@ public class Tickets {
             System.out.println("Precio:");
             float precioProducto = teclado.nextFloat();
             System.out.println(nombreProductos + "-" + precioProducto+" euros");
-            suma = suma + precioProducto;
+            suma = suma + precioProducto;CAT
 
             // 1. Pedir el nombre del cliente.
             // 2. Preguntar la cantidad de productos.
