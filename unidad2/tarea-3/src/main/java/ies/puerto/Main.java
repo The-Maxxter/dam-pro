@@ -1,17 +1,38 @@
 package ies.puerto;
 
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
+    static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("====================================");
+        System.out.println("        SIMULADOR DE AHORRO");
+        System.out.println("====================================");
+        System.out.println("Introduzca su nombre:");
+        String nombre = scanner.nextLine();
+        System.out.println("Bienvenid@, " + nombre + ".");
+        String respuesta = "";
+        do {
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
-        }
+            //no, está mal. No se como hacerlo con el do-while
+
+            respuesta = scanner.nextLine();
+
+            switch(respuesta){
+                case 1: System.out.println("Introduce una cantidad");
+                    float ahorros = scanner.nextFloat();
+                    respuesta = scanner.nextLine();
+                    System.out.println("Aportacion registrada. ahorros actuales: " + ahorros + " Euros.");
+                    System.out.println("¿Realizar ora aportacion?");
+                    ahorros = ahorros + scanner.nextFloat();
+                    break;
+                //???????
+                case 2:
+                    System.out.println("fin");
+            }
+        }while ("si".equals(respuesta));
     }
 }
+//yqs
