@@ -15,7 +15,7 @@ public class DatosPersonales {
     static int convertirEdad(String sEdad) {
         if (sEdad ==null){
             return 0;
-            
+
         }
     }
 }
