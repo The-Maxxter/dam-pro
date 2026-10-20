@@ -5,7 +5,7 @@ import org.w3c.dom.ls.LSOutput;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Main {
+public class  {
     static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         float aportacion = 0;
