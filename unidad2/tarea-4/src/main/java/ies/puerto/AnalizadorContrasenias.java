@@ -80,6 +80,12 @@ public class AnalizadorContrasenias {
         }
         return true;
     }
+
+    /**
+     * funcion esContrasenaValida
+     * @param sContrasenia
+     * @return
+     */
     static boolean esContrasenaValida(String sContrasenia){
         if (!tieneLogitudMinimas(sContrasenia)){
             return false;
