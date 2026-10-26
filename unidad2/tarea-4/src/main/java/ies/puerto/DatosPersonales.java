@@ -1,11 +1,12 @@
-package ies.puerto.es;
+package ies.puerto;
 
 import java.util.Scanner;
 
 /**
- * @author edugutdev
+ * @author Mauro
  * @version 1.0.0
  */
+
 public class DatosPersonales {
     static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
