@@ -9,14 +9,24 @@ public class ClaveSecreta {
         //a A = ?
 
     }
-    static String generarClaveSegura(String palabra){
+    /**
+     * Remplaza las vocales por otros caracteres
+     * @param sPalabra String
+     * @return String
+     */
+    static String generarClaveSegura(String sPalabra){
         String clave = "";
 
-        if (palabra == null || palabra.isEmpty()){
+        if (sPalabra == null || sPalabra.isEmpty()){
             return "";
         }
-        palabra.replace("a|A", "?");
-        palabra.replace("e|E", "*");
+        sPalabra = sPalabra.replace("a|A", "?");
+        sPalabra = sPalabra.replace("e|E", "*");
+        sPalabra = sPalabra.replace("i|I", "2");
+        sPalabra = sPalabra.replace("o|O", "0");
+        sPalabra = sPalabra.replace("u|U", "3");
+        sPalabra = sPalabra.replace("d|D", "[");
+        sPalabra = sPalabra.replace("r|R", "$");
 
         return clave;
     }
