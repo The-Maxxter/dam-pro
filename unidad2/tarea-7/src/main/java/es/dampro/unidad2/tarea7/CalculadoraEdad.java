@@ -15,7 +15,7 @@ public final class CalculadoraEdad {
         System.out.println("la edad es "+ anios);
     }
     /**
-     * Realiza el calcilo de la edad
+     * Realiza el calculo de la edad
      *
      * @param nacimiento LocalDate fecha de nacimiento
      * @param fechaActual LocalDate fecha actual

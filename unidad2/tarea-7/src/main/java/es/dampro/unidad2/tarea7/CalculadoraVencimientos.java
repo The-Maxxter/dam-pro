@@ -12,6 +12,12 @@ import java.time.temporal.ChronoUnit;
  */
 public final class CalculadoraVencimientos {
     private CalculadoraVencimientos() { }
+    public static void main(String[] args) {
+        LocalDate fecha=LocalDate.now();
+        LocalDate calcularVencimiento = LocalDate.of(2026, 11, 6);
+        Period dias = Period.between(fecha, calcularVencimiento);
+        int
+    }
 
     /**
      * TODO: Describe lo que hace el método.
