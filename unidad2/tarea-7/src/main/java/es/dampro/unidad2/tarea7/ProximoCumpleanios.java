@@ -7,21 +7,28 @@ import java.time.temporal.ChronoUnit;
 /**
  * TODO: Describe la finalidad de ProximoCumpleanios.
  *
- * @author
- * @version
+ * @author Mauro
+ * @version 1.0.0
  */
 public final class ProximoCumpleanios {
     private ProximoCumpleanios() { }
 
     /**
-     * TODO: Describe lo que hace el método.
+     * Devuelve el proximo cumpleanios, contando hoy.
+     * IllegalArgumentException si el nacimiento es futuro.
      *
-     * @param nacimiento
-     * @param hoy
-     * @return
+     * @param nacimiento fecha de nacimiento
+     * @param hoy fecha de hoy
+     * @return fecha del proximo cumpleanios (si es hoy, hoy)
      */
     public static LocalDate calcularProximoCumpleanios(LocalDate nacimiento, LocalDate hoy) {
-        // TODO: Implementa el algoritmo según el enunciado.
-        return LocalDate.MIN;
+        if (nacimiento.isAfter(hoy)) {
+            throw new IllegalArgumentException("El nacimiento es posterior a hoy");
+        }
+        LocalDate cumple = nacimiento.withYear(hoy.getYear());
+        if (cumple.isBefore(hoy)) {
+            cumple = nacimiento.withYear(hoy.getYear() + 1);
+        }
+        return cumple;
     }
 }

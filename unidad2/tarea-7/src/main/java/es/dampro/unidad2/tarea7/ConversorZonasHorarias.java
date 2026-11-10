@@ -7,21 +7,21 @@ import java.time.temporal.ChronoUnit;
 /**
  * TODO: Describe la finalidad de ConversorZonasHorarias.
  *
- * @author
- * @version
+ * @author Mauro
+ * @version 1.0.0
  */
+
 public final class ConversorZonasHorarias {
     private ConversorZonasHorarias() { }
 
     /**
-     * TODO: Describe lo que hace el método.
+     * Cambia una hora a otra zona horaria.
      *
-     * @param fechaOrigen
-     * @param zonaDestino
-     * @return
+     * @param fechaOrigen fecha y hora con su zona
+     * @param zonaDestino zona a la que se cambia
+     * @return la misma hora en la zona nueva
      */
     public static ZonedDateTime convertirZona(ZonedDateTime fechaOrigen, ZoneId zonaDestino) {
-        // TODO: Implementa el algoritmo según el enunciado.
-        return fechaOrigen;
+        return fechaOrigen.withZoneSameInstant(zonaDestino);
     }
 }

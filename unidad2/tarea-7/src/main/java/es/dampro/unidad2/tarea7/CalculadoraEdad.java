@@ -4,6 +4,12 @@ import java.time.*;
 import java.time.format.*;
 import java.time.temporal.ChronoUnit;
 
+/**
+ * TODO: Clase que calcula edad
+ *
+ * @author Mauro
+ * @version 1.0.0
+ */
 
 public final class CalculadoraEdad {
     private CalculadoraEdad() { }

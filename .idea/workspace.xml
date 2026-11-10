@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db7cd33b-cd95-441c-b1ff-de1054a98b9e" name="Changes" comment="" />
+    <list default="true" id="db7cd33b-cd95-441c-b1ff-de1054a98b9e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/AnalizadorFecha.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/AnalizadorFecha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CalculadoraEdad.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CalculadoraEdad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CalculadoraJornada.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CalculadoraJornada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CalculadoraVencimientos.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CalculadoraVencimientos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CalculadoraViaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CalculadoraViaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/ComprobadorReservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/ComprobadorReservas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/ConversorZonasHorarias.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/ConversorZonasHorarias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CuentaAtrasEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/unidad2/tarea-7/src/main/java/es/dampro/unidad2/tarea7/CuentaAtrasEvento.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/unidad2/tarea-4" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
@@ -26,10 +36,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/alumno/git/dam-pro/unidad2/tarea-4",

@@ -7,20 +7,23 @@ import java.time.temporal.ChronoUnit;
 /**
  * TODO: Describe la finalidad de ValidadorFechas.
  *
- * @author
- * @version
+ * @author Mauro
+ * @version 1.0.0
  */
 public final class ValidadorFechas {
     private ValidadorFechas() { }
 
     /**
-     * TODO: Describe lo que hace el método.
+     * Convierte un texto dd/MM/uuuu (2 digitos de dia y mes, 4 de anio) en fecha usando ResolverStyle.STRICT.
+     * DateTimeParseException si la fecha es imposible o el texto esta mal
      *
-     * @param texto
-     * @return
+     * @param texto la fecha escrita
+     * @return la fecha ya convertida
      */
     public static LocalDate validarFecha(String texto) {
-        // TODO: Implementa el algoritmo según el enunciado.
-        return LocalDate.MIN;
+        // STRICT: no acepta fechas imposibles como 31/04/2026
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/uuuu")
+                .withResolverStyle(ResolverStyle.STRICT);
+        return LocalDate.parse(texto, formato);
     }
 }

@@ -7,21 +7,21 @@ import java.time.temporal.ChronoUnit;
 /**
  * TODO: Describe la finalidad de CuentaAtrasEvento.
  *
- * @author
- * @version
+ * @author Mauro
+ * @version 1.0.0
  */
 public final class CuentaAtrasEvento {
     private CuentaAtrasEvento() { }
 
     /**
-     * TODO: Describe lo que hace el método.
+     * Cuenta los dias naturales que faltan hasta el evento, con signo:
+     * positivo si falta, cero si es hoy, negativo si ya paso.
      *
-     * @param hoy
-     * @param evento
-     * @return
+     * @param hoy fecha de hoy
+     * @param evento fecha del evento
+     * @return dias con signo: positivo si falta, cero si es hoy, negativo si ya paso
      */
     public static long calcularDiasRestantes(LocalDate hoy, LocalDate evento) {
-        // TODO: Implementa el algoritmo según el enunciado.
-        return 0L;
+        return ChronoUnit.DAYS.between(hoy, evento);
     }
 }
