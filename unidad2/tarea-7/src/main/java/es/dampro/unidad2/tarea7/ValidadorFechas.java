@@ -13,6 +13,9 @@ import java.time.temporal.ChronoUnit;
 public final class ValidadorFechas {
     private ValidadorFechas() { }
 
+    LocalDate fechaActual = LocalDate.now();
+    String fecha =
+
     /**
      * Convierte un texto dd/MM/uuuu (2 digitos de dia y mes, 4 de anio) en fecha usando ResolverStyle.STRICT.
      * DateTimeParseException si la fecha es imposible o el texto esta mal

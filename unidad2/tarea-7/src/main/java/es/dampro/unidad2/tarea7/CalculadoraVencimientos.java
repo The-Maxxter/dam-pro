@@ -5,27 +5,31 @@ import java.time.format.*;
 import java.time.temporal.ChronoUnit;
 
 /**
- * Calcula fechas de vencimiento.
+ * TODO: Describe la finalidad de CalculadoraVencimientos.
  *
- * @author Mauro
- * @version 1.0
+ * @author
+ * @version
  */
-
 public final class CalculadoraVencimientos {
     private CalculadoraVencimientos() { }
+    public static void main(String[] args) {
+        LocalDate fecha=LocalDate.now();
+        LocalDate calcularVencimiento = LocalDate.of(2026, 11, 6);
+        Period dias = Period.between(fecha, calcularVencimiento);
+        int
+    }
 
     /**
-     * Suma anios, meses y dias a una fecha.
+     * TODO: Describe lo que hace el método.
      *
-     * Ejemplo real (el de los tests): {@code calcularVencimiento(LocalDate.of(2026, 1, 31), 0, 1, 0)} da {@code 2026-02-28}.
-     *
-     * @param fecha fecha de inicio
-     * @param dias dias a sumar
-     * @param meses meses a sumar
-     * @param anios anios a sumar
-     * @return la fecha de vencimiento
+     * @param fecha
+     * @param dias
+     * @param meses
+     * @param anios
+     * @return
      */
     public static LocalDate calcularVencimiento(LocalDate fecha, int dias, int meses, int anios) {
-        return fecha.plusYears(anios).plusMonths(meses).plusDays(dias);
+        // TODO: Implementa el algoritmo según el enunciado.
+        return LocalDate.MIN;
     }
 }
