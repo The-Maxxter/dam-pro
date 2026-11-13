@@ -13,7 +13,7 @@ public final class Ejercicio07Ordenar {
     private Ejercicio07Ordenar() { }
 
     public static void main(String[] args) {
-        int [] numeros = {7,8,2,3,414,280};
+        int [] numeros = {6,1,3,7,1000,2};
         int [] resultado = ordenar(numeros);
         System.out.println("El array ordenado: " + Arrays.toString(resultado));
     }
@@ -27,7 +27,7 @@ public final class Ejercicio07Ordenar {
      */
 
     public static int[] ordenar(int[] numeros) {
-        if (numeros == null) {
+        if (numeros == null || numeros.length == 0) {
             throw new IllegalArgumentException("El array es nulo");
         }
 
